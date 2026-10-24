@@ -4,8 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Evaluador de calificación</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+	<?php include 'menu.php'; ?>
 	<h3>Evaluador de calificación</h3>
 	<form method="POST" action="">
 		<label for="calificacion">Ingresa una calificación de 0 a 100:</label>
