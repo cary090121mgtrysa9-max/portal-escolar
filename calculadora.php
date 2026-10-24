@@ -17,7 +17,8 @@
  
     <label>Segundo número:</label>
     <input type="number" step="any" name="n2" required>
- 
+    <br><br>
+    
     <button type="submit">Calcular</button>
 </form>
  
@@ -34,7 +35,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         echo "<p>Resta: " . ($a - $b) . "</p>";
         echo "<p>Multiplicación: " . ($a * $b) . "</p>";
         echo "<p>Divición: " . ($a / $b) . "</p>";
-// completer aquí lo que falta
     }
 }
 ?>
