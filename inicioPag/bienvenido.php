@@ -20,7 +20,7 @@ $fecha = "9 Noviembre del 2026";
 
         <h1>¡Bienvenido!</h1>
 
-        <img src="images/logo.png" alt="Logo de la escuela" class="logo">
+        <img src="images/logo.jpg" alt="Logo de la escuela" class="logo">
        
         <p><strong>Actividad:</strong> <?php echo $tarea; ?></p>
 
