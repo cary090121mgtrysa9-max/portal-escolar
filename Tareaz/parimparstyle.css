@@ -1,0 +1,58 @@
+html {
+    background-color: #9b2020;
+}
+
+body {
+    font-family:fantasy;
+    font-size: 20px;
+    background-color: #950000;
+    text-align: center;
+    margin: 150px auto;
+    width: 250px;
+    padding: 100px;
+    border: #530505 2px solid;
+    border-radius: 20px;
+}
+
+h2 {
+    color: #230101;
+    border-bottom: #620c0c 2px solid;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #000000;
+}
+
+form {
+    background-color: #b632325d;
+    border: #ff1616 1px solid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    color: #250000;
+}
+
+input {
+    padding: 7px;
+    width: 50px;
+    border: #bf0707 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: #2100f7;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 7px;
+    font-size: 21px;
+}
+
+button:hover {
+    background-color: #8d0606;
+}

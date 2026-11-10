@@ -1,0 +1,157 @@
+
+body {
+    background-color: #f1edff;
+    font-family: cursive;
+    color: #494263;
+    margin: 0;
+    padding: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: #7965a8;
+}
+
+.subtitulo {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px #d5cbea;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #d5c8f0;
+    border-radius: 12px;
+    font-family: cursive;
+    font-size: 15px;
+    background-color: #fcfaff;
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-top: 18px;
+    padding: 12px;
+    background-color: #a99ad5;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-family: cursive;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8875ba;
+}
+
+h2 {
+    text-align: center;
+    color: #7965a8;
+    margin-top: 35px;
+}
+
+.tabla-contenedor {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+table {
+    width: 100%;
+    min-width: 850px;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #b8a9e2;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #e4def2;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f5ff;
+}
+
+td.mensaje {
+    text-align: left;
+    min-width: 180px;
+    overflow-wrap: anywhere;
+}
+
+.normal {
+    color: #34754d;
+    background-color: #e1f5e7;
+    font-weight: bold;
+}
+
+.revisar {
+    color: #8a641c;
+    background-color: #fff0c9;
+    font-weight: bold;
+}
+
+.sospechoso {
+    color: #a33e61;
+    background-color: #ffdfeb;
+    font-weight: bold;
+}
+
+.resumen {
+    background-color: white;
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #d5cbea;
+    overflow-wrap: anywhere;
+}
+
+.resumen p {
+    padding: 8px;
+    border-bottom: 1px solid #eee8f8;
+}
+
+.aviso {
+    text-align: center;
+    color: #a33e61;
+    margin: 25px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    form {
+        width: 100%;
+        padding: 18px;
+    }
+}

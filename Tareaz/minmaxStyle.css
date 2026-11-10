@@ -1,0 +1,40 @@
+body{
+    background-color: #f5f5e0;
+    font-family:Arial Narrow Bold, sans-serif;
+    text-align:center;
+}
+
+h2{
+    font-family:Lucida Sans Unicode, 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #75703b;
+}
+
+h3{
+    font-family:Lucida Sans Unicode, 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #8a8a46;
+}
+
+form{
+    background-color: rgb(253, 253, 203);
+    width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+input{
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #bdc27e;
+    border-radius: 8px;
+}
+
+input[type="submit"]{
+    background-color: #9aa264;
+    color: rgb(240, 243, 230);
+    cursor:all-scroll;
+}
+
+input[type="submit"]:hover{
+    background-color: #8a8846;
+}
